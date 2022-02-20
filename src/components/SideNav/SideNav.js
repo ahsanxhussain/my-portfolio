@@ -6,7 +6,7 @@ export default function SideNav() {
     <div className="side-nav">
       <ul>
       <li>
-        <Link to="/" spy={true} smooth={true}>intro</Link>
+        <NavLink to="/" >intro</NavLink>
       </li>
 
       <li>
