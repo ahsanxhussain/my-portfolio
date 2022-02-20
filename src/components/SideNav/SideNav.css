@@ -1,0 +1,36 @@
+/* styling side nav  */
+.side-nav {
+    position: fixed;
+    right: 0px;
+    width: 300px;
+    height: 300px;
+    margin-top: -350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #adadad;
+    
+
+}
+.side-nav li 
+,.side-nav a { 
+    list-style-type: none;
+    text-align: left;
+    font-size: 1.6rem;
+    font-family: 'Lato';
+    font-weight:normal;
+    align-items: center;
+    padding-bottom: 5px;
+    cursor: none;
+    text-decoration: none;
+    color: #adadad;
+}
+.side-nav li:hover,
+.side-nav a:hover,
+.side-nav a.active
+{ 
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+    transition: 0.5s;
+}

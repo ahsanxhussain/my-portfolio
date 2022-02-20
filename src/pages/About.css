@@ -1,0 +1,16 @@
+.about-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.about-container h4, h3 {
+    color: #909090;
+    font-weight:lighter;
+    font-style: italic;
+    text-align: left;
+    margin-left: 25px;
+}
+.about-container h3 {
+    margin-left: 45px !important;
+    color: white;
+
+}

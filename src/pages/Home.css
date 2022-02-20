@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.nav {
+    height: 30px;
+    width: 50%;
+    padding: 25px;
+    display: flex;
+    margin-bottom: 40px;
+}
+.linkedin {
+    color: #909090;
+    padding-left: 15px;
+    cursor: none;
+}
+.github { 
+    color: #909090; 
+    cursor: none;
+}
+
+/* styling intro page  */
+.intro-page h4, h3 { 
+    color: #909090;
+    font-weight:lighter;
+    font-style: italic;
+    text-align: left;
+    margin-left: 25px;
+    /* font-family: 'roboto'; */
+}
+
+.intro-page span  {
+    display: flex;
+    color: #E5E5E5;    
+}
+.intro-page span h2 {
+    font-weight: normal; 
+    padding-left: 10px;
+    font-size: 2rem;
+    position: relative;
+    bottom: 15px;
+}
+.intro-page h3 { 
+    text-align: left !important;
+    font-size: 1.3rem;
+    margin-top: -20px;
+}
+.intro-page h1 {
+    color: #fff;
+    text-align: left;
+    font-size: 2.5rem;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+.intro-page div h2 {
+    color: #E14040;
+    font-weight: normal; 
+    padding-left: 10px;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 40px;
+    position: relative;
+    bottom: 15px;
+    margin-bottom: -30px;
+}
+
