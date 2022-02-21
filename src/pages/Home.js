@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import './Home.css'
 //importing react icons/fontawesome
 import { FaGithub, FaLinkedin } from "react-icons/fa";

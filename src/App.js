@@ -13,9 +13,10 @@ function App() {
       <BrowserRouter>
         <Routes>
         <Route exact path="/" element={<Home />} />
+        
         </Routes>
-        <SideNav />
-        <About/>
+        {/* <SideNav /> */}
+        <About />
         <Projects/>
       </BrowserRouter>
     </div>

@@ -10,13 +10,13 @@ export default function SideNav() {
       </li>
 
       <li>
-        <Link to="/about" spy={true} smooth={true}>about</Link>
+        <NavLink to="/a">about</NavLink>
       </li>
       <li>
-        <Link to="/projects" spy={true} smooth={true}>projects</Link>
+        <NavLink to="/b" >projects</NavLink>
       </li>
       <li>
-        <Link to="/hire-me" spy={true} smooth={true}>hire me</Link>
+        <NavLink to="/c" >hire me</NavLink>
       </li>
       </ul>
     </div>
